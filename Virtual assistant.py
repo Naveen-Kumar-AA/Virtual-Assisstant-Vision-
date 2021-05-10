@@ -57,7 +57,7 @@ def getQuery():
             speak("Here are some headlines from  the  hindu")
             continue
         elif "weather" in Query:
-            apiKey = "b8d8d009a677db24d890aae925df992e"
+            apiKey = "get your api by signing up"
             url = "http://api.openweathermap.org/data/2.5/weather?"
             speak("Enter your city name : ")
             cityName = input("Enter your city name : ")
@@ -100,7 +100,7 @@ def getQuery():
             speak("Which movie do you want to play?")
             movie = recognise().lower()
             speak("Playing " + movie)
-            startfile("E:\\Movies\\" + movie + ".mkv")
+            startfile("movie path (sample path - E:\\movies\\" + movie + ".mkv")
             continue
         elif "from map" in Query:
             speak("Which place do you want to search from maps?")
@@ -118,7 +118,7 @@ def getQuery():
         elif "from windows" in Query:
             speak("Which app do you want to open?")
             app_name = recognise().lower()
-            startfile("C:\\Users\\Sakth\\Desktop\\" + app_name)
+            startfile("enter your desktop path (sample path - c:\\users\\<name>\\desktop)" + app_name)
         elif "tata" in Query:
             speak("Bye. See you soon again")
             print("Bye. See you soon again")
