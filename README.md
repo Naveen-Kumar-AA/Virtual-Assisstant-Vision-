@@ -1,0 +1,2 @@
+# Virtual-Assisstant-Vision-
+Our virtual assisstant (vision) can do simple jobs that include greeting the user, printing current weather,  printing current date and time, can search anything from google, youtube, play music from gaana.com, play a movie or  any video using the default video player app, check the internet speed, can show any location from google maps, show  the latest news and so on.
