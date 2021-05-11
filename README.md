@@ -20,7 +20,7 @@ the latest news and so on.
 
 Steps to use the code:
 
-1)In the getQuery() functoin (line 60) get your api key from https://openweathermap.org/api by just signing in.
+1)In the getQuery() function (line 60) get your api key from https://openweathermap.org/api by just signing in.
 2)In the getQuery() function (line 103) use the path where you have .mp4 files.
 3)In the getQuery() function (line 121) use the your desktop path so that u can access the shortcut for all the apps.
 4)To invoke vision run the code and just say "hello vision".
